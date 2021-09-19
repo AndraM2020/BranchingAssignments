@@ -12,9 +12,9 @@ public class Date {
         }
         System.out.println("Please write the month: ");
         int month = input.nextInt();
-        if (month <=0 || month >=12)
-        {
-            System.out.println("Invalid values! Please enter month from 1 to 12!");}
+        if (month <= 0 || month >= 12) {
+            System.out.println("Invalid values! Please enter month from 1 to 12!");
+        }
 
         System.out.println("Please write the year:");
         int year = input.nextInt();
@@ -23,12 +23,13 @@ public class Date {
         } else {
             System.out.println("Please select the date formating. 1 - YYYY/MM/DD, 2 - YYYY.MM.DD");
             int format = input.nextInt();
-            if (format == 1)
-            { System.out.println("Your date is" + " " + year + "/" + month + "/" + day);}
+            if (format == 1) {
+                System.out.println("Your date is" + " " + year + "/" + month + "/" + day);
+            }
 
-            if (format == 2)
-            { System.out.println("Your date is" + " " + year + "." + month + "." + day);}
-
+            if (format == 2) {
+                System.out.println("Your date is" + " " + year + "." + month + "." + day);
+            }
 
 
         }
