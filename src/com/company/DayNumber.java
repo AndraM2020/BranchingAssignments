@@ -34,6 +34,5 @@ public class DayNumber {
         else
             System.out.println("Please choose a day within a short year. Choose a number from 1 to 365");
 
-
     }
 }
